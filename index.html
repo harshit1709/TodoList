@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;500&family=Old+Standard+TT&family=Cinzel&family=Krona+One&family=Playfair+Display+SC&family=Yeon+Sung&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e25b852c87.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="todo">
+        <div class="todos">
+            <button class="add-todo" onclick="showinput()">
+                <span>Add 
+                    <i class="far fa-plus-square" aria-hidden="true"></i>
+                </span>
+            </button>
+
+            <div class = "hidden" id="todoinput">
+                <input type="text" class="outline-none rounded" id="inputbox" placeholder="Enter your todo...">
+            </div>
+        </div>
+        <div class="todolist">
+            <ul class="list-none" id="todoitems"> 
+                
+
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
